@@ -1,1 +1,2 @@
-# IA
+# gomoku-ia
+trabalho de IA
