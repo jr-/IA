@@ -372,7 +372,77 @@
     <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Estudante -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Estudante">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#estuda_na"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Pessoa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#EstudanteHeroi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#EstudanteHeroi">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#estuda_na"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1A"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#estuda_na"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1B"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#estuda_na"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.3"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#estuda_na"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Dep_Herois"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Estudante"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#EstudanteSuporte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#EstudanteSuporte">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#estuda_na"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1F"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#estuda_na"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1G"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#estuda_na"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1H"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#estuda_na"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.3G"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#estuda_na"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Dep_Suporte"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Estudante"/>
     </owl:Class>
     
 
@@ -380,6 +450,20 @@
     <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Heroi -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Heroi">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#possui_individualidade"/>
+                        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#tem_licenca_pro"/>
+                        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Pessoa"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Vilao"/>
     </owl:Class>
