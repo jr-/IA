@@ -1,0 +1,336 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Agencia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Agencia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Civil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Civil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Pessoa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Departamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Departamento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Escola"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Equipamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Equipamento"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Escola -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Escola"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Estudante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Estudante">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Pessoa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Heroi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Heroi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Pessoa"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Vilao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Individualidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Individualidade"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#LigaViloes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#LigaViloes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Pessoa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Pessoa"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Professor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Professor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Heroi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Rank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Rank"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Time"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Turma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Turma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Escola"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Vilao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Vilao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Pessoa"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Agencia_Best_Jeanist -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Agencia_Best_Jeanist"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#All_Might -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#All_Might"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Best_Jeanist -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Best_Jeanist"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1A -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1A"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1B -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1B"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1C -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1C"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1D -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1D"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1E -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1E"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1F -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1F"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1G -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1G"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1H -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1H"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1I -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1I"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1J -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1J"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1K -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1K"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.3G -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.3G"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Deku -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Deku">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Izuku_Midoriya"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Eraserhead -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Eraserhead"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Fumikage_Tokoyami -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Fumikage_Tokoyami"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Grenadier_Bracers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Grenadier_Bracers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Izuku_Midoriya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Izuku_Midoriya"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Katsuki_Bakugo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Katsuki_Bakugo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Knuckleduster -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Knuckleduster"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#LV_All_For_One -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#LV_All_For_One"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Mei_Hatsume -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Mei_Hatsume"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Nezu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Nezu"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Ochaco_Uraraka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Ochaco_Uraraka"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#One_For_All -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#One_For_All"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Stain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Stain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Time_Midoriya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Time_Midoriya"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Tomura_Shigaraki -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Tomura_Shigaraki"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#U.A. -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#U.A."/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
