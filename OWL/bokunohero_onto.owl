@@ -142,6 +142,7 @@
     <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#lidera_time -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#lidera_time">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#pertence_ao_time"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#time_liderado_por"/>
         <rdfs:domain>
             <owl:Class>
@@ -219,6 +220,7 @@
     <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#pertence_ao_time -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#pertence_ao_time">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#time_contem"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -287,9 +289,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#time_contem -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#time_contem"/>
+    
+
+
     <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#time_liderado_por -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#time_liderado_por">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#time_contem"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -767,7 +776,6 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Estudante"/>
         <estuda_na rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1A"/>
         <lidera_time rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Time_Midoriya"/>
-        <pertence_ao_time rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Time_Midoriya"/>
         <possui_individualidade rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#One_For_All"/>
     </owl:NamedIndividual>
     
