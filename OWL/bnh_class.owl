@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Agencia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Agencia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Civil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Civil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Pessoa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Departamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Departamento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Escola"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Equipamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Equipamento"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Escola -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Escola"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Estudante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Estudante">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Pessoa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Heroi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Heroi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Pessoa"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Vilao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Individualidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Individualidade"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#LigaViloes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#LigaViloes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Pessoa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Pessoa"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Professor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Professor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Heroi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Rank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Rank"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Time"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Turma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Turma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Escola"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Vilao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Vilao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Pessoa"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
