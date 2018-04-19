@@ -66,7 +66,7 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Estudante"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#EstudanteHeroi"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Heroi"/>
                 </owl:unionOf>
             </owl:Class>
@@ -146,7 +146,8 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Estudante"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#EstudanteHeroi"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#EstudanteSuporte"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Heroi"/>
                 </owl:unionOf>
             </owl:Class>
@@ -154,7 +155,8 @@
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Estudante"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#EstudanteHeroi"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#EstudanteSuporte"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Heroi"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Time"/>
                 </owl:unionOf>
@@ -171,7 +173,7 @@
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Estudante"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#EstudanteHeroi"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Heroi"/>
                 </owl:unionOf>
             </owl:Class>
@@ -220,7 +222,8 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Estudante"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#EstudanteHeroi"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#EstudanteSuporte"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Heroi"/>
                 </owl:unionOf>
             </owl:Class>
@@ -290,7 +293,8 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Estudante"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#EstudanteHeroi"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#EstudanteSuporte"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Heroi"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Time"/>
                 </owl:unionOf>
@@ -299,7 +303,8 @@
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Estudante"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#EstudanteHeroi"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#EstudanteSuporte"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Heroi"/>
                 </owl:unionOf>
             </owl:Class>
@@ -539,6 +544,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Agencia_Best_Jeanist">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Agencia"/>
+        <agencia_pertence_a rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Best_Jeanist"/>
     </owl:NamedIndividual>
     
 
@@ -547,6 +553,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#All_Might">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Professor"/>
+        <eh_professor rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#U.A."/>
+        <mentor_de rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Izuku_Midoriya"/>
     </owl:NamedIndividual>
     
 
@@ -555,6 +563,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Best_Jeanist">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Heroi"/>
+        <eh_dono_agencia rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Agencia_Best_Jeanist"/>
+        <mentor_de rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Katsuki_Bakugo"/>
     </owl:NamedIndividual>
     
 
@@ -563,6 +573,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1A">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Turma"/>
+        <pertence_a_escola rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#U.A."/>
+        <pertence_ao_departamento rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Dep_Herois"/>
     </owl:NamedIndividual>
     
 
@@ -571,6 +583,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1B">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Turma"/>
+        <pertence_a_escola rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#U.A."/>
+        <pertence_ao_departamento rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Dep_Herois"/>
     </owl:NamedIndividual>
     
 
@@ -579,6 +593,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1C">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Turma"/>
+        <pertence_a_escola rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#U.A."/>
+        <pertence_ao_departamento rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Dep_Geral"/>
     </owl:NamedIndividual>
     
 
@@ -587,6 +603,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1D">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Turma"/>
+        <pertence_ao_departamento rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Dep_Geral"/>
     </owl:NamedIndividual>
     
 
@@ -595,6 +612,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1E">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Turma"/>
+        <pertence_ao_departamento rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Dep_Geral"/>
     </owl:NamedIndividual>
     
 
@@ -603,6 +621,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1F">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Turma"/>
+        <pertence_ao_departamento rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Dep_Suporte"/>
     </owl:NamedIndividual>
     
 
@@ -611,6 +630,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1G">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Turma"/>
+        <pertence_ao_departamento rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Dep_Suporte"/>
     </owl:NamedIndividual>
     
 
@@ -619,6 +639,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1H">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Turma"/>
+        <pertence_ao_departamento rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Dep_Suporte"/>
     </owl:NamedIndividual>
     
 
@@ -627,6 +648,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1I">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Turma"/>
+        <pertence_ao_departamento rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Dep_Gerencia"/>
     </owl:NamedIndividual>
     
 
@@ -635,6 +657,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1J">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Turma"/>
+        <pertence_ao_departamento rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Dep_Gerencia"/>
     </owl:NamedIndividual>
     
 
@@ -643,6 +666,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1K">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Turma"/>
+        <pertence_ao_departamento rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Dep_Gerencia"/>
     </owl:NamedIndividual>
     
 
@@ -651,6 +675,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.3">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Turma"/>
+        <pertence_ao_departamento rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Dep_Herois"/>
     </owl:NamedIndividual>
     
 
@@ -659,6 +684,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.3G">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Turma"/>
+        <pertence_ao_departamento rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Dep_Suporte"/>
     </owl:NamedIndividual>
     
 
@@ -675,6 +701,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Dep_Geral">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Departamento"/>
+        <pertence_a_escola rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#U.A."/>
     </owl:NamedIndividual>
     
 
@@ -683,6 +710,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Dep_Gerencia">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Departamento"/>
+        <pertence_a_escola rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#U.A."/>
     </owl:NamedIndividual>
     
 
@@ -691,6 +719,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Dep_Herois">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Departamento"/>
+        <pertence_a_escola rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#U.A."/>
     </owl:NamedIndividual>
     
 
@@ -699,6 +728,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Dep_Suporte">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Departamento"/>
+        <pertence_a_escola rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#U.A."/>
     </owl:NamedIndividual>
     
 
@@ -707,6 +737,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Eraserhead">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Professor"/>
+        <eh_professor rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#U.A."/>
+        <responsavel_pela rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1A"/>
     </owl:NamedIndividual>
     
 
@@ -715,6 +747,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Fumikage_Tokoyami">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Estudante"/>
+        <estuda_na rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1A"/>
+        <pertence_ao_time rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Time_Midoriya"/>
     </owl:NamedIndividual>
     
 
@@ -731,13 +765,20 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Izuku_Midoriya">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Estudante"/>
+        <estuda_na rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1A"/>
+        <lidera_time rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Time_Midoriya"/>
+        <pertence_ao_time rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Time_Midoriya"/>
+        <possui_individualidade rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#One_For_All"/>
     </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Katsuki_Bakugo -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Katsuki_Bakugo"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Katsuki_Bakugo">
+        <estuda_na rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1A"/>
+        <usa_equipamento rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Grenadier_Bracers"/>
+    </owl:NamedIndividual>
     
 
 
@@ -761,6 +802,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Mei_Hatsume">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Estudante"/>
+        <estuda_na rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1H"/>
+        <pertence_ao_time rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Time_Midoriya"/>
     </owl:NamedIndividual>
     
 
@@ -769,6 +812,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Nezu">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Professor"/>
+        <diretor_da rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#U.A."/>
     </owl:NamedIndividual>
     
 
@@ -777,6 +821,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Ochaco_Uraraka">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Estudante"/>
+        <estuda_na rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#C.1A"/>
+        <pertence_ao_time rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Time_Midoriya"/>
     </owl:NamedIndividual>
     
 
@@ -809,6 +855,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Tomura_Shigaraki">
         <rdf:type rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#Vilao"/>
+        <lidera_a_ligaviloes rdf:resource="http://www.semanticweb.org/zr/ontologies/2018/3/untitled-ontology-10#LV_All_For_One"/>
     </owl:NamedIndividual>
     
 
